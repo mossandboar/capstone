@@ -1,5 +1,5 @@
 function getApi(query){
-var url = 'http://itunes.apple.com/search?term='+query+'+&callback=?';
+var url = 'http://itunes.apple.com/search?term='+query+'+&limit=25&callback=?';
   
   $.getJSON(
        url,
